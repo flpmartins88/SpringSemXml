@@ -1,11 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.wordpress.flpmartins88.springsemxml;
+package io.github.flpmartins88.springsemxml;
 
-import com.wordpress.flpmartins88.springsemxml.config.ApplicationConfig;
+import io.github.flpmartins88.springsemxml.config.ApplicationConfig;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -13,7 +8,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  *
  * @author Felipe
  */
-public class Main {
+public class Application {
 
     public static void main(String[] args) {
 

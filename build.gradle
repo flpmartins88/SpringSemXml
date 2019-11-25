@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'io.github.flpmartins88.springsemxml.Application'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context:5.2.1.RELEASE'
+}
+
+group = 'com.wordpress.flpmartins88'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '1.13'
+targetCompatibility = '1.13'
+
